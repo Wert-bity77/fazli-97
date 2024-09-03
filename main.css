@@ -1,0 +1,123 @@
+body {
+     background-color: violet;        
+}
+
+.h1- {
+    text-align: center;
+    color: black;
+    
+}
+.container {
+ max-width: 100%;
+ width: 1110px;  
+ margin: 0 auto; 
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+}
+
+.box {
+      width: 350px;
+      height: 290px;
+      background-color:  rgb(3, 74, 62);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    position: relative;
+    top: 70px;
+}
+
+.img1 {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 90px;
+    position: relative;
+    left: 110px;
+    bottom: 30px;
+}
+
+
+.img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    
+        
+}
+
+.h21 {
+    color: rgb(109, 224, 168);
+    margin: 20px 0 0 0;
+    padding: 0;
+    
+    
+}
+
+.p1 {
+    color: white;
+    margin: 10px 0 0 0;
+    position: relative;
+    top: 10px;
+    right: 125px;
+}
+
+
+.h22 {
+    color: rgb(109, 224, 168);
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.p2 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    position: relative;
+    top: 10px;
+    right: 125px;
+    
+   
+}
+
+.img3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 150px;
+    position: relative;
+    left: 100px;
+}
+
+.h23 {
+    color: rgb(109, 224, 168);
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.p3 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 11px;  
+    position: relative;
+    top: 10px;
+    right: 110px; 
+}
+
+
+p::before {
+    content: '+';
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 87px;
+    left: 20px;
+}
+
+
